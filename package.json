@@ -1,0 +1,28 @@
+{
+  "name": "kml-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "*.json"
+    ],
+    "delay": 0
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tmcw/togeojson": "^4.4.1",
+    "jszip": "^3.6.0",
+    "xml2js": "^0.4.23",
+    "xmldom": "^0.6.0"
+  },
+  "devDependencies": {
+    "chalk": "^3.0.0",
+    "eslint": "^7.32.0",
+    "nodemon": "^2.0.12"
+  }
+}
