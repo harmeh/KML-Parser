@@ -1,5 +1,5 @@
 {
-  "name": "kml-parser",
+  "name": "kml-to-geojson-parser",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
